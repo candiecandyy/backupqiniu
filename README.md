@@ -1,7 +1,7 @@
 # backupqiniu
 备份博客信息到七牛云
 
-###注册七牛云账号并认证
+### 注册七牛云账号并认证
 
 [七牛云地址](https://portal.qiniu.com)
 
@@ -9,11 +9,11 @@
 
 然后去右上角个人头像位置选择秘钥管理AK,和SK需要用到
 
-###安装jdk1.8以上版本,并配置环境变量
+### 安装jdk1.8以上版本,并配置环境变量
 
 略
 
-###修改配置文件
+### 修改配置文件
 
 ```
 backup_name=princelei
@@ -40,18 +40,21 @@ qiniu_secrect_key=asdasd
 - qiniu_access_key: 七牛云AK
 - qiniu_secrect_key: 七牛云SK
 
-###启动jar包
+### 启动jar包
 
-···
+```
 java -jar backupqiniu.jar
-···
+```
 
 运行成功之后查看七牛云上是否有文件
 成功之后可以设置定时任务
+
 ```
 crontab -e
 ```
+
 添加
+
 ```
 * * * */1 * java -jar (jar包路径)
 ```
