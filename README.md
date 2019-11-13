@@ -1,6 +1,8 @@
 # backupqiniu
 备份博客信息到七牛云
 
+## [下载](https://github.com/candiecandyy/backupqiniu/releases)
+
 ### 注册七牛云账号并认证
 
 [七牛云地址](https://portal.qiniu.com)
