@@ -56,7 +56,7 @@ crontab -e
 添加
 
 ```
-* * * */1 * java -jar (jar包路径)
+* * * */1 * /root/jdk/jre/bin/java -jar (jar包路径)
 ```
 
-表示每月运行一次，具体频率可以自行修改
+表示每月运行一次，具体频率可以自行修改,注意java路径和jar包路径为绝对路径
